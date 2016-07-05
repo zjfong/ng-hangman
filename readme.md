@@ -48,7 +48,7 @@ Note what is returned, and what changes on `hangman`.  You'll use this inside yo
 
 
 ### Step 1: Initialization
-Let's get angular setup in our app.  
+Let's get angular setup in our app.
 
 * `bower install` your front-end assets
 * add `ng-app` in the appropriate location and set it equal to your "hangmanApp"
@@ -83,7 +83,7 @@ Add these in the appropriate parts of the html using expressions to get the valu
 
 ### Step 5: Looking Good
 
-That array on the page is kinda ugly.  Let's fix it.
+That array on the page is kinda ugly. Let's fix it.
 
 * change the array to display using `ng-repeat`
 * improve the looks of anything else as desired
