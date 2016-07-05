@@ -70,10 +70,7 @@ Add these in the appropriate parts of the html using expressions to get the valu
 * autofocus to the input field
 * use `ng-model` to track the input field's value
 * use `ng-change` to call a function when the input changes and pass in the input's value
-  * write a helper function in your controller for this
-  * for now you can just console.log the value of the input
-    * make sure to make the function publicly available on a controller instance
-      * e.g. `this.checkGuess = yourFunctionName`
+  * write a helper function in your controller that is passed into the view, i.e. `guessLetter`.
   * the input should be cleared after each character is typed
 
 ### Step 4: Win State
@@ -83,12 +80,12 @@ Add these in the appropriate parts of the html using expressions to get the valu
 
 ### Step 5: Looking Good
 
-That array on the page is kinda ugly. Let's fix it.
+The guesses on the page is kinda ugly. Let's fix it.
 
-* change the array to display using `ng-repeat`
+* change the list of guesses to display using `ng-repeat`
 * improve the looks of anything else as desired
 
-### Step 6: More User Stories
+### Step 6: More User Stories (Bonus)
 
 Accomplish the following features on your own or in a pair. User can...
 
@@ -96,5 +93,5 @@ Accomplish the following features on your own or in a pair. User can...
 * be challenged with a random word from a list of words
 * restart the game after win/lose
 * keep score of games won and lost
-* see a drawing of the hangman as the game progresses
+* see a drawing of the hangman as the game progresses (extra bonus)
 
