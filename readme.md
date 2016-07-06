@@ -41,7 +41,7 @@ You should have a new instance of a game. Now try running:
 ```js
 hangman.guess('x');
 hangman.guess('t');
-hangman.checkGameWinStatus();
+hangman.isWinner();
 ```
 
 Note what is returned, and what changes on `hangman`.  You'll use this inside your angular controller.
