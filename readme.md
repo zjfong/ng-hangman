@@ -1,3 +1,12 @@
+<!---
+  market: SF,
+  credit: https://github.com/SF-WDI-LABS/angular_hangman_lab
+-->
+
+# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> 
+
+#ngHangman
+
 <pre>
 _________
 |/      |                               _
@@ -9,16 +18,26 @@ _________
 |___                                        hang-man
 </pre>
 
-## Learning Objectives
+### Why is this important?
+<!-- framing the "why" in big-picture/real world examples -->
+*This workshop is important because:*
 
-This lab is a chance to use the skills you've developed so far and play with angular.
-You'll be making an in-browser [hang-man game](https://en.wikipedia.org/wiki/Hangman_(game)). By the end of this lesson you should be able to:
+This workshop is a chance to use the skills you've developed so far and play with angular. We'll be making an in-browser [hang-man game](https://en.wikipedia.org/wiki/Hangman_(game)).
 
-* Build a working object oriented hangman game using concepts we've already covered such as
-    * `ng-model` to get use input
-    * `ng-controller` to organize your code
-    * `ng-repeat` to visualize a collection
-    * `ng-change` to fire an event
+### What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
+
+ * Get user input with `ng-model`
+ * Organize code with `ng-controller`
+ * Visualize a collection with `ng-repeat`
+ * Fire an event with `ng-change`
+
+### Where should we be now?
+<!-- call out the skills that are prerequisites -->
+*Before this workshop, developers should already be able to:*
+
+* Use Angular at a basic level
 
 ## Mockup of End Result
 
