@@ -19,7 +19,11 @@ function hangmanCtrl(){
     if(vm.game.gameWon === true){
       vm.game = new HangmanGame(list[Math.floor(Math.random() * (list.length))]);
       vm.game.gameWon = null;
-      vm.score++
+      vm.score++;
+    } else if(vm.game.gameWon === false){
+      vm.game = new HangmanGame(list[Math.floor(Math.random() * (list.length))]);
+      vm.game.gameWon = null;
+      vm.score--;
     }
   }
 }
