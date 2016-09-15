@@ -20,4 +20,4 @@ _________
 
 ### Reflection:
 
-It was difficult to work with angular. The previous exercise introduced some of the angular directives, but didn't explain how they worked. Directives used: **ng-app**, **ng-model**, **ng-change**, **ng-repeat**.
+It was difficult to work with angular. The previous exercise introduced some of the angular directives, but didn't explain how they worked. Directives used: **ng-app**, **ng-controller**, **ng-model**, **ng-change**, **ng-class**, **ng-repeat**.
